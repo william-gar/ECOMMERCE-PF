@@ -48,11 +48,9 @@ import {
 } from "./types.js";
 import axios from "axios";
 
-// const direction =
-//   "https://pf-ecommerce-production-3652.up.railway.app" ||
-//   "http://localhost:3001";
+const direction = "https://pf-ecommerce-production-3652.up.railway.app";
 
-const direction = "http://localhost:3001";
+//const direction = "http://localhost:3001";
 
 export const getBooks = () => async (dispatch) => {
   let dataBooks = await axios(`${direction}/shop/books`);
