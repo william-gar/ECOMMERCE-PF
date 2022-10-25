@@ -71,7 +71,7 @@ export const ManageUsers = () => {
     await Swal.fire({
       position: "center",
       icon: "success",
-      title: "Usuario Reestablecido Exitosamente!!",
+      title: "Usuario Restablecido Exitosamente!!",
       background: "#333",
       color: "#fff",
       showConfirmButton: false,
@@ -254,7 +254,7 @@ export const ManageUsers = () => {
                   }
                 >
                   <h3 className="flex justify-around">
-                    Reestablecer
+                    Restablecer
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
