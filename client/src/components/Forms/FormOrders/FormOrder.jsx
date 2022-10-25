@@ -162,7 +162,7 @@ function CheckoutForm() {
           .toFixed(2);
 
         const { data } = await axios.post(
-          "http://localhost:3001/checkout/create",
+          "https://pf-ecommerce-production-3652.up.railway.app/checkout/create",
           {
             id,
             UserId: User.iduser,
